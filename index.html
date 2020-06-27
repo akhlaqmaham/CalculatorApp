@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="header">
+            <h4 align="center" style="margin: auto; margin-top: 5px;" >Calculator</h4>
+            
+        </div>
+        <div>
+            <input id="result" class="result" type="text">
+        </div>
+        <div align="center">
+            <button class="btn" onclick="getNum('7')">7</button>
+            <button class="btn" onclick="getNum('8')">8</button>
+            <button class="btn" onclick="getNum('9')">9</button>
+            <button class="btn" onclick="getNum('*')">x</button>
+        </div>
+        <div align="center">
+            <button class="btn"  onclick="getNum('4')">4</button>
+            <button class="btn"  onclick="getNum('5')">5</button>
+            <button class="btn"  onclick="getNum('6')">6</button>
+            <button class="btn"  onclick="getNum('-')">-</button>
+        </div>
+        <div align="center">
+            <button class="btn"  onclick="getNum('1')">1</button>
+            <button class="btn"  onclick="getNum('2')">2</button>
+            <button class="btn"  onclick="getNum('3')">3</button>
+            <button class="btn"  onclick="getNum('+')">+</button>
+        </div>
+        <div align="center">
+            <button class="btn"  onclick="getNum('0')">0</button>
+            <button class="btn"  onclick="getNum('/')">/</button>
+            <button class="btn" id="or" onclick="clr()">c</button>
+            <button class="btn" id="or" onclick="getRes()">=</button>
+            
+        </div>
+        
+
+    </div>
+    
+</body>
+<script src="app.js"></script>
+
+</html>
